@@ -13,7 +13,9 @@ public class Fita {
     private int TAMFITA;
     private int posicao;
     private char[] fita;
-    public Fita(){
-        
+    public Fita(char[] fita){
+        this.fita = fita;
+        this.TAMFITA = this.fita.length;
+        this.posicao = 0;
     }
 }
